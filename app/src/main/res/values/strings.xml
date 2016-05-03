@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Recorrase</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="puntos">+0 puntos</string>
+    <string name="km">0 km recorridos</string>
+    <string name="dinero">$0.00 ahorrados</string>
+    <string name="huella">-0 kg de CO2</string>
+</resources>

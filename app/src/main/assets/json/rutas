@@ -1,0 +1,91 @@
+{
+  "camiones":[
+    {
+      "ruta": "14",
+      "ramal": "Tlahuac - Iztapalapa",
+      "rutacompleta": "Tlahuac - Avenida 11 - Soriana - Rojo Gomez - Iztapalapa",
+      "calificacion": 3.4,
+      "seguridad": 3.5,
+      "servicio": 3.2,
+      "eficiencia": 2.4,
+      "unidades": 4.1,
+      "disponibilidad":1.2,
+      "letrero": "tlahuaciztapalapa"
+    },{
+      "ruta": "14",
+      "ramal": "Tlahuac - U. 520 - Constitucion",
+      "rutacompleta": "Tlahuac - Avenida 11 - U.H. 520 - Soriana - Ermita - Constitucion",
+      "calificacion": 4.3,
+      "seguridad": 4.5,
+      "servicio": 4.2,
+      "eficiencia": 4.4,
+      "unidades": 5.0,
+      "disponibilidad": 4.2,
+      "letrero": "tlahuacconstitucion"
+    },{
+      "ruta": "14",
+      "ramal": "Tlahuac - Nativitas",
+      "rutacompleta": "Tlahuac - Avenida 11 - Soriana - Rojo Gomez - Iztapalapa - Playa Encantada - Nativitas",
+      "calificacion": 4.5,
+      "seguridad": 3.5,
+      "servicio": 3.2,
+      "eficiencia": 5.0,
+      "unidades": 4.1,
+      "disponibilidad": 4.2,
+      "letrero": "tlahuacnativitas"
+    },{
+      "ruta": "11",
+      "ramal": "Iztapalapa - Las Torres",
+      "rutacompleta": "Iztapalapa - Panteon Civil - Periferico Oriente - SEDENA - Canal de Chalco - Las Torres",
+      "calificacion": 2.1,
+      "seguridad": 2.5,
+      "servicio": 1.2,
+      "eficiencia": 3.0,
+      "unidades": 2.1,
+      "disponibilidad": 1.2,
+      "letrero": "iztapalapalastorres"
+    }
+  ],
+  "metro":[
+    {
+      "estacion": "Constitucion de 1917",
+      "linea": 8,
+      "calificacion": 2.0
+    },{
+      "estacion": "UAM I",
+      "linea": 8,
+      "calificacion": 4.3
+    },{
+      "estacion": "Cerro de la Estrella",
+      "linea": 8,
+      "calificacion": 1.3
+    },{
+      "estacion": "Iztapalapa",
+      "linea": 8,
+      "calificacion": 3.6
+    },{
+      "estacion": "Atlalilco",
+      "linea": 8,
+      "calificacion": 4.2
+    },{
+      "estacion": "Atlalilco",
+      "linea": 12,
+      "calificacion": 4.6
+    }
+  ],
+  "metrobus": [
+    {
+      "estacion": "Rojo Gomez",
+      "linea": 2,
+      "calificacion": 4.6
+    },{
+      "estacion": "Goma",
+      "linea": 2,
+      "calificacion": 4.2
+    },{
+      "estacion": "UPIICSA",
+      "linea": 2,
+      "calificacion": 3.9
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/img_logro"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:src="@drawable/trophy" />
+
+    <TextView
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Recorriste 5km en transporte público"
+        android:id="@+id/txt_logro"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:background="@drawable/roundedcornersblue"
+        android:layout_marginLeft="10dp"
+        android:paddingLeft="10dp"
+        android:textSize="14dp"
+        android:paddingTop="3dp"
+        android:layout_alignBottom="@+id/img_logro"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/img_logro" />
+
+</RelativeLayout>

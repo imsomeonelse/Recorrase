@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="visualoctopus.recorrase">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/rlogo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.Light.NoTitleBar">
+        <activity android:name=".TitleActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RutasActivity" />
+        <activity android:name=".BuscarRutasActivity" />
+        <activity android:name=".RutaDescActivity" />
+        <activity android:name=".CreditosActivity" />
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".RecorridoActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".RateActivity" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAYvm-izm7pv_0I-v18EyIDEFW9CXRsiew" />
+
+        <activity android:name=".MetroDescActivity" />
+        <activity android:name=".RegistroActivity" />
+        <activity android:name=".LogInActivity"></activity>
+
+        <service android:name=".ComentarioServicio" />
+    </application>
+
+</manifest>

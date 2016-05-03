@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="visualoctopus.recorrase.MetroDescActivity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/gridLayout">
+
+        <ImageView
+            android:layout_width="@dimen/dim_rutaW"
+            android:layout_height="@dimen/dim_rutaH"
+            android:id="@+id/img_estacion"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_rowSpan="2"
+            android:background="@color/color_buttonGrey"
+            android:src="@drawable/ruta" />
+
+        <TextView
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:text="Indios Verdes"
+            android:id="@+id/desc_estacion"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:id="@+id/btn_ratem"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:src="@drawable/rate_3"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:id="@+id/scrollView"
+            android:layout_row="5"
+            android:layout_column="0"
+            android:layout_columnSpan="2"
+            android:background="@color/color_softGrey">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/imageView7"
+                        android:src="@drawable/profile"
+                        android:layout_marginLeft="5dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="imsomeonelse"
+                        android:id="@+id/textView4"
+                        android:layout_marginLeft="5dp"
+                        android:textSize="15dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/imageView7"
+                        android:layout_marginTop="5dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Siempre me subo a este camión y nunca me han asaltado :)."
+                        android:id="@+id/textView5"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignStart="@+id/imageView7"
+                        android:layout_below="@+id/textView4"
+                        android:layout_marginTop="5dp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="chuu24"
+                        android:id="@+id/textView"
+                        android:layout_marginLeft="5dp"
+                        android:textSize="15dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/imageView6"
+                        android:layout_marginTop="5dp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/imageView6"
+                        android:src="@drawable/profile2"
+                        android:layout_marginLeft="5dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="A mí sí :("
+                        android:id="@+id/textView3"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignStart="@+id/imageView6"
+                        android:layout_below="@+id/textView"
+                        android:layout_marginTop="5dp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:paddingLeft="10dp" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/imageView8"
+                        android:src="@drawable/profile2"
+                        android:layout_marginLeft="5dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="cantucky"
+                        android:id="@+id/textView6"
+                        android:layout_marginLeft="5dp"
+                        android:textSize="15dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/imageView8"
+                        android:layout_marginTop="5dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="El chofer huele mal"
+                        android:id="@+id/textView7"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignStart="@+id/imageView8"
+                        android:layout_below="@+id/textView6"
+                        android:layout_marginTop="5dp" />
+                </RelativeLayout>
+            </LinearLayout>
+        </ScrollView>
+
+        <ImageButton
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:id="@+id/btn_comentario"
+            android:layout_alignParentBottom="true"
+            android:layout_column="1"
+            android:layout_row="6"
+            android:background="@drawable/add"
+            android:layout_gravity="right"
+            android:layout_marginTop="-35dp"
+            android:layout_marginRight="15dp" />
+
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="282dp"
+            android:name="com.google.android.gms.maps.MapFragment"
+            android:id="@+id/mapsFragment"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:layout_columnSpan="2"
+            android:layout_rowSpan="2"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp" />
+
+    </GridLayout>
+
+</RelativeLayout>

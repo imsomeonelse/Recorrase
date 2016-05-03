@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView37"
+        android:src="@drawable/profile2"
+        android:layout_marginLeft="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="cantucky"
+        android:id="@+id/txt_cusername"
+        android:layout_marginLeft="5dp"
+        android:textSize="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/imageView37"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/color_text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="18:21 en R2 Tepito-La Guerrero"
+        android:id="@+id/txt_hora"
+        android:layout_toRightOf="@+id/txt_cusername"
+        android:layout_marginLeft="10dp"
+        android:textSize="10dp"
+        android:layout_alignBottom="@+id/txt_cusername"
+        android:layout_marginBottom="2dp"
+        android:textColor="@color/color_text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Había un bebé muerto abajo de mi asiento"
+        android:id="@+id/txt_comentario"
+        android:layout_alignStart="@+id/imageView37"
+        android:layout_below="@+id/txt_cusername"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/color_text" />
+
+</RelativeLayout>

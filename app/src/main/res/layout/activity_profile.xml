@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="visualoctopus.recorrase.ProfileActivity"
+    android:background="@color/color_appBackground">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:id="@+id/img_profile"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:src="@drawable/fotoperfil3"
+            android:layout_rowSpan="4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="cantucky"
+            android:id="@+id/txt_username"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_marginLeft="15dp"
+            android:textSize="25dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Daniel García"
+            android:id="@+id/txt_name"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_marginLeft="15dp"
+            android:textSize="20dp"
+            android:textIsSelectable="false"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Nivel"
+            android:id="@+id/txt_correo"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:layout_marginLeft="15dp"
+            android:textSize="20dp"
+            android:textIsSelectable="false"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="1283 de 9231"
+            android:id="@+id/txt_nivel"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:layout_marginLeft="15dp"
+            android:textSize="15dp"
+            android:textIsSelectable="false" />
+
+        <Button
+            android:onClick="mostrarLogros"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:text="Logros"
+            android:id="@+id/btn_logros"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="@color/color_buttonBlue"
+            android:textSize="18dp" />
+
+        <Button
+            android:onClick="mostrarComentarios"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:text="Comentarios"
+            android:id="@+id/btn_comentarios"
+            android:layout_row="4"
+            android:layout_column="1"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="@color/color_buttonBlue"
+            android:textSize="18dp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:id="@+id/container"
+            android:layout_column="0"
+            android:layout_columnSpan="2"
+            android:layout_row="6"
+            android:fillViewport="true" />
+
+    </GridLayout>
+</RelativeLayout>
